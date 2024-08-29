@@ -1,0 +1,55 @@
+:root {
+  --background-color: #fff;
+  --btn-color: #000000;
+  --btn-text-color: #fff;
+  --project-card-bg: #00000000;
+  --text-color: #222;
+  --form-text-color: #555;
+  --footer-text-color: #888;
+}
+
+[data-theme = 'dark'] {
+  --background-color: #222;
+  --btn-color: #fff;
+  --btn-text-color: #222;
+  --project-card-bg: #fff;
+  --text-color: #fff;
+  --form-text-color: #fff;
+  --footer-text-color: #bbb;
+}
+
+body{
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+h1 {
+  font-size: 175%;
+}
+
+h2 {
+  font-size: 205%;
+}
+
+p {
+  font-size: 125%;
+}
+
+h1, h2, h3, p {
+  color: var(--text-color);
+}
+
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
