@@ -1,6 +1,6 @@
 import './App.css';
 import Mesect from './sects/Me/Mesect';
-import ParticlesComponent from './components/Particles';
+import ParticlesComponent from './components/p';
 
 function App() {
 
