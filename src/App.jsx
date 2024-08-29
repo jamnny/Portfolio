@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <ParticlesComponent id="particles"/>
+      <ParticlesComponent id="par"/>
       <Mesect />
     </div>
   );
