@@ -5,7 +5,7 @@ import moon from '../../assets/moon.gif';
 import x from '../../assets/twitter.gif';
 import fb from '../../assets/facebook.gif';
 import git from '../../assets/github.gif';
-import resume from '../../assets/resume.pdf';
+import resume from '../../assets/resume.jpg';
 import { useTheme } from '../../common/ThemeContext';
 
 
