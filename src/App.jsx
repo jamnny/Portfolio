@@ -1,6 +1,7 @@
 import './App.css';
 import Mesect from './sects/Me/Mesect';
 import ParticlesComponent from './components/p';
+import Proj from './sects/Projects/Proj';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <ParticlesComponent id="par"/>
       <Mesect />
+      <Proj />
     </div>
   );
 }
