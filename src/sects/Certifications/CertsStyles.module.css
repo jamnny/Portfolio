@@ -2,14 +2,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 145dvh;
-    max-width: fit-content;
+    height: 55dvh;
 
     img {
-        max-width: 230px;
+        max-width: 220px;
         align-self: center;
         background-color: var(--project-card-bg);
-        border-radius: 140px;
+        border-radius: 100px;
     }
 
     a {
@@ -25,26 +24,20 @@
 }
 
 p {
-    max-width: fit-content;
+    max-width: 35ch;
     text-align: center;
     font-size: 15px;
 }
 
 .dd {
     height: 25dvh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: fit-content;
 }
 
 .projectsContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
     justify-content: center;
-    max-width: fit-content;
-    margin: 10px auto;
 }
 

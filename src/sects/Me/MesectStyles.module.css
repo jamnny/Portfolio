@@ -13,7 +13,6 @@
 
     .colorMode {
         border-radius: 20px;
-        
     }
 
     .colorMode:hover {
@@ -82,7 +81,7 @@
 
 .colorMode {
     position: absolute;
-    right: 92%;
+    right: 75%;
     width: 43px;
 }
 
