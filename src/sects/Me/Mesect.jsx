@@ -30,13 +30,13 @@ function Mesect() {
                 <h2>Programmer</h2>
                 <br />
                 <span>
-                    <a href="https://x.com/" target='_blank'>
+                    <a href="https://x.com/Jamnny2" target='_blank'>
                         <img src={x} alt="Twitter Icon" />
                     </a>
-                    <a href="https://github.com/" target='_blank'>
+                    <a href="https://github.com/jamnny" target='_blank'>
                         <img src={git} alt="Github Icon" />
                     </a>
-                    <a href="https://facebook.com/" target='_blank'>
+                    <a href="https://www.facebook.com/Jamnny09" target='_blank'>
                         <img src={fb} alt="Facebook Icon" />
                     </a>
                 </span>
