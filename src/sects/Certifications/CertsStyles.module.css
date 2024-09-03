@@ -41,3 +41,47 @@ p {
     justify-content: center;
 }
 
+@media (width <=900px) {
+    .container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 45dvh;
+    
+            img {
+                max-width: 150px;
+                align-self: center;
+                background-color: var(--project-card-bg);
+                border-radius: 100px;
+            }
+    
+            a {
+                width: fit-content;
+                text-decoration: none;
+                color: #222;
+                transition: transform 200ms ease-in-out;
+            }
+    
+            a:hover {
+                transform: scale(1.05);
+            }
+        }
+    
+        p {
+            max-width: 35ch;
+            text-align: center;
+            font-size: 15px;
+        }
+    
+        .dd {
+            height: 25dvh;
+        }
+    
+        .projectsContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 50px;
+            justify-content: center;
+        }
+}

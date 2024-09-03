@@ -32,7 +32,7 @@
 .dd {
     right: 150%;
     border-radius: 5px;
-    
+
 }
 
 .projectsContainer {
@@ -59,54 +59,59 @@
 
 @media (width <=900px) {
     .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
 
-    a {
-        width: fit-content;
-        text-decoration: none;
-        color: #222;
-        transition: transform 200ms ease-in-out;
+        a {
+            width: fit-content;
+            text-decoration: none;
+            color: #222;
+            transition: transform 200ms ease-in-out;
+        }
+
+        a:hover {
+            transform: scale(1.05);
+        }
     }
 
-    a:hover {
-        transform: scale(1.05);
+    .meew {
+        max-width: 150px;
+        align-self: center;
+        background-color: var(--project-card-bg);
+        border-radius: 80px;
     }
-}
 
-.meew {
-    max-width: 200px;
-    align-self: center;
-    background-color: var(--project-card-bg);
-    border-radius: 80px;
-}
+    .dd {
+        right: 150%;
+        border-radius: 15px;
+        height: 5dvh;
+        width: 5dvh;
+    }
 
-.dd {
-    right: 150%;
-    border-radius: 5px;
-    
-}
+    .projectsContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+        max-width: 280px;
+        justify-content: center;
+    }
 
-.projectsContainer {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 30px;
-    justify-content: space-evenly;
-    max-width: 35ch;
-}
+    .meContainer {
+        position: absolute;
+        right: 5ch;
+    }
 
-.meContainer {
-    position: absolute;
-    right: 5ch;
-}
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
 
-.info {
-    display: flex;
-    flex-direction: column;
-}
+    .me {
+        margin-bottom: 40px;
+    }
 
-.me {
-    margin-bottom: 40px;
-}
+    h3 {
+        font-size: 2ch;
+    }
 }

@@ -98,3 +98,109 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (width <=900px) {
+    .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 100dvh;
+            min-height: 500px;
+    
+            .meew {
+                border-radius: 140px;
+                height: 30dvh;
+            }
+    
+            .colorMode {
+                border-radius: 20px;
+                height: 5dvh;
+                width: 5dvh;
+            }
+    
+            .colorMode:hover {
+                transform: scale(1.15);
+            }
+    
+            .colorMode:active {
+                transform: translateY(2px);
+                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+            }
+    
+            span {
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+    
+                a {
+                    margin: 0;
+    
+                    img {
+                        border-radius: 10px;
+                        height: 5dvh;
+                    }
+    
+                    img:hover {
+                        transform: scale(1.15);
+                    }
+    
+                    img:active {
+                        transform: translateY(2px);
+                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+                    }
+                }
+            }
+    
+            a {
+                width: fit-content;
+                align-self: center;
+            }
+    
+            button {
+                background-color: var(--btn-color);
+                color: var(--btn-text-color);
+                border: none;
+                border-radius: 20px;
+                width: 100px;
+                height: 40px;
+                font-size: 20px;
+                font-weight: bold;
+                box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+                transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+            }
+    
+            button:hover {
+                transform: scale(1.15);
+            }
+    
+            button:active {
+                transform: translateY(2px);
+                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+            }
+        }
+    
+        .colorModeContainer {
+            position: relative;
+        }
+    
+        .colorMode {
+            position: absolute;
+            right: 75%;
+            width: 43px;
+        }
+    
+        .colorMode:hover {
+            cursor: pointer;
+        }
+    
+        .message {
+            max-width: 30ch;
+            align-self: center;
+        }
+    
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+}

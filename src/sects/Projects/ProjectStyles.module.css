@@ -48,3 +48,61 @@ p {
     margin: 10px auto;
 }
 
+@media (width <=900px) {
+    .container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 130dvh;
+            max-width: fit-content;
+    
+            img {
+                max-width: 130px;
+                align-self: center;
+                background-color: var(--project-card-bg);
+                border-radius: 140px;
+            }
+    
+            a {
+                width: fit-content;
+                text-decoration: none;
+                color: #222;
+                transition: transform 200ms ease-in-out;
+            }
+    
+            a:hover {
+                transform: scale(1.05);
+            }
+        }
+    
+        p {
+            max-width: fit-content;
+            text-align: center;
+            font-size: 15px;
+        }
+    
+        .dd {
+            height: 15dvh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            max-width: fit-content;
+        }
+    
+        .projectsContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            max-width: fit-content;
+            margin: 10px auto;
+        }
+        .des{
+            height: 10dvh;
+            width: 25dvh;
+        }
+        .h3{
+            width: 25dvh;
+        }
+}
